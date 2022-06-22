@@ -10,7 +10,7 @@ minimo = salario * 40 / 100
 print('seu carro carro custa R${:.2f} e seu salario é de R${}'.format(carro, salario), end='')
 print('A prestacao do carro ficará R${}'.format(prestacao))
 
-#validando se é possivel a comprar do veiculo se nao atingir os 40% do salario do comprador 
+#validando se é possivel a compra do veiculo se nao atingir os 40% do salario do comprador 
 if prestacao <= minimo:
 	print('Solicitcao de compra APROVADA')
 else:
